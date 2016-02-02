@@ -1,0 +1,89 @@
+.title{
+	padding: 5px 0 10px 20px;
+	color:#777;
+	display:inline-block;
+	font:24px Tahoma;
+}
+#filter{
+ 	height:30px;
+ 	width:250px;
+ 	border: 1px solid #ccc;
+}
+#articles{
+	text-indent:35px;
+	font-size:16px;
+	z-index:0;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+#pages{
+	width:100%;
+	background:#fff;
+	height:50px;
+	padding:5px;
+}
+ul.sideMenu{
+	list-style-type: none;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+ul.sideMenu li{
+	color: #444;
+	display: block;
+	width: auto;
+}
+a{
+	padding: 10px 10px 10px 0px;
+	float: left;
+	display: block;
+	width: 100%;
+	text-decoration:none;
+	color: #444;
+	border-left: 0px solid #5e7cc9;
+	padding-left: 5px;
+	border-bottom: 1px solid #ececec;
+}
+a.current{
+	background-color: #cfdbf9;
+	border-left: 5px solid #5e7cc9;
+	padding-left: 0px;
+}
+a:hover{
+	display: block;
+	width: 100%;
+	text-decoration:none;
+	color: #333;
+	background-color: #cfdbf9;
+	cursor: pointer;
+	border-left: 5px solid #5e7cc9;
+	padding-left: 0px;
+}
+.label{
+	font-size: 12px;
+	font-weight: normal;
+}
+table.pagination{
+    color:#666;
+}
+table.pagination td{
+    color:#777;
+    background:#eee;
+    cursor: pointer;
+    border:1px solid #e0e0e0;
+    padding: 10px;
+    width: 14px;
+    font-weight: bold;
+    text-align:center;
+}
+table.pagination td:hover{
+    background:#e0e0e0;
+}
+table.pagination td.current{
+    background:#e0e0e0;
+}
+table.pagination td.freeze{
+    background:#eee;
+    color: #aaa;
+    cursor: default;
+}
