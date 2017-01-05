@@ -1,5 +1,5 @@
 # Paginate
-It is an awesome reusable code writen in jquery. 
+It is an awesome reusable code written in jquery. 
 Writing a pagination in any server side application makes it hard for the users to traverse through a list. 
 This extension makes it easy and is written just for fun !
 
